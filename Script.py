@@ -1,44 +1,45 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ Aɴᴅ Eɴᴊᴏʏ 😍</b>"""
+    START_TXT = """<b>Bonjour {},
+Je m'appelle <a href=https://t.me/{}>{}</a>, je peux fournir des films. Ajoutez-moi à votre groupe en tant qu'administrateur et profitez-en 😍</b>"""
 
-    HELP_TXT = """<b>Hᴇʏ {}
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+HELP_TXT = """<b>Salut {}
+Voici l'aide pour mes commandes.</b>"""
 
-    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Lɪʙʀᴀʀʏ: <a href='docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Lᴀɴɢᴜᴀɢᴇ: <a href='www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
-✯ DᴀᴛᴀBᴀsᴇ: <a href='www.mongodb.com'>MᴏɴɢᴏDB</a>
-✯ Bᴏᴛ Sᴇʀᴠᴇʀ: Pʀɪᴠᴀᴛᴇ
-✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
+ABOUT_TXT = """<b>✯ Mon nom : {}
+✯ Bibliothèque : <a href='docs.pyrogram.org/'>Pyrogram</a>
+✯ Langage : <a href='www.python.org/download/releases/3.0/'>Python 3</a>
+✯ Base de données : <a href='www.mongodb.com'>MongoDB</a>
+✯ Serveur du bot : Privé
+✯ Statut de construction : v2.7.1 [ Stable ]</b>"""
 
-    SOURCE_TXT = """<b>
-✭ ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ 
-✭ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜʀ ᴏᴡɴ ᴀɴʏ ᴛʏᴘᴇ ᴏғ ʙᴏᴛ ᴛʜᴇɴ ᴅᴍ ᴍᴇ " ᴘᴀɪᴅ "</b>
+SOURCE_TXT = """<b>
+✭ Pour toute requête, contactez le développeur
+✭ Si vous voulez votre propre type de bot, alors envoyez-moi un message privé avec "payant"</b>
 """
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
-- ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
-<b>ɴᴏᴛᴇ:</b>
-1. ᴛʜɪꜱ ʙᴏᴛ ꜱʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟᴇɢᴇ.
-2. ᴏɴʟʏ ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴀᴅᴅ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴀ ᴄʜᴀᴛ.
-3. ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ ʜᴀᴠᴇ ᴀ ʟɪᴍɪᴛ ᴏꜰ 64 ᴄʜᴀʀᴀᴄᴛᴇʀꜱ.
-Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
-• /filter - <code>ᴀᴅᴅ ᴀ ꜰɪʟᴛᴇʀ ɪɴ ᴀ ᴄʜᴀᴛ</code>
-• /filters - <code>ʟɪꜱᴛ ᴀʟʟ ᴛʜᴇ ꜰɪʟᴛᴇʀꜱ ᴏꜰ ᴀ ᴄʜᴀᴛ</code>
-• /del - <code>ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴛᴇʀ ɪɴ ᴀ ᴄʜᴀᴛ</code>
-• /delall - <code>ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴀ ᴄʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</code>"""
+- Uɴ ꜰɪʟᴛʀᴇ ᴇꜱᴛ ᴜɴᴇ ꜰᴏɴᴄᴛɪᴏɴ ᴏᴜ ʟᴇꜱ ᴜᴛɪʟɪꜱᴀᴛᴇᴜʀꜱ ᴘᴇᴜᴠᴇɴᴛ ᴇɴʀᴇɢɪꜱᴛʀᴇʀ ᴅᴇꜱ ʀᴇ́ᴘᴏɴꜱᴇꜱ ᴀᴜᴛᴏᴍᴀᴛɪϲᴇ́ᴇꜱ ᴘᴏᴜʀ ᴜɴ ᴍᴏᴛ-ᴄʟᴇ́ ᴘᴀʀᴛɪᴄᴜʟɪᴇʀ ᴇᴛ ʏ ᴇɴᴠᴏʏᴇʀᴀɪ ʟᴇꜱ ʀᴇ́ᴘᴏɴꜱᴇꜱ ᴅᴇꜱ ǫᴜᴇ ʟᴇ ᴍᴏᴛ-ᴄʟᴇ́ ᴇꜱᴛ ᴛʀᴏᴜᴠé ᴅᴀɴꜱ ʟᴇ ᴍᴇꜱꜱᴀɢᴇ
+<b>RᴇᴍᴀʀQᴜᴇ:</b>
+1. Cᴇ ʙᴏᴛ ᴅᴏɪᴛ ᴀᴠᴏɪʀ ᴅᴇꜱ ᴘʀɪᴠɪʟᴇ̀ɢᴇꜱ ᴅ'ᴀᴅᴍɪɴɪꜱᴛʀᴀᴛᴇᴜʀ.
+2. Sᴇᴜʟꜱ ʟᴇꜱ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴛᴇᴜʀꜱ ᴘᴇᴜᴠᴇɴᴛ ᴀᴊᴏᴜᴛᴇʀ ᴅᴇꜱ ꜰɪʟᴛʀᴇꜱ ᴅᴀɴꜱ ᴜɴ ᴄʜᴀᴛ.
+3. Lᴇꜱ ʙᴜᴛᴛᴏɴꜱ ᴅ'ᴀʟᴇʀᴛᴇ ᴏɴᴛ ᴜɴᴇ ʟɪᴍɪᴛᴇ ᴅᴇ 64 ᴄᴀʀᴀᴄᴛᴇ̀ʀᴇꜱ.
+Cᴏᴍᴍᴀɴᴅᴇꜱ ᴇᴛ ᴜꜱᴀɢᴇ :
+• /filter - <code>Ajouter un filtre dans un chat</code>
+• /filters - <code>Lister tous les filtres d'un chat</code>
+• /del - <code>Supprimer un filtre spécifique dans un chat</code>
+• /delall - <code>Supprimer tous les filtres dans un chat (propriétaire du chat seulement)</code>"""
 
-    BUTTON_TXT = """ʜᴇʟᴘ: <b>ʙᴜᴛᴛᴏɴꜱ</b>
-- ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴꜱ.
-<b>ɴᴏᴛᴇ:</b>
-1. ᴛᴇʟᴇɢʀᴀᴍ ᴡɪʟʟ ɴᴏᴛ ᴀʟʟᴏᴡꜱ ʏᴏᴜ ᴛᴏ ꜱᴇɴᴅ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ, ꜱᴏ ᴄᴏɴᴛᴇɴᴛ ɪꜱ ᴍᴀɴᴅᴀᴛᴏʀʏ.
-2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
-3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
-<b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/Cinema_Moviesz)</code>
-<b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
+BUTTON_TXT = """ʜᴇʟᴘ: <b>Bᴜᴛᴛᴏɴꜱ</b>
+- Cᴇ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛᴇ ᴅᴇꜱ ʙᴜᴛᴛᴏɴꜱ ɪɴʟɪɴᴇ ᴘᴏᴜʀ ʟᴇꜱ ᴜʀʟ ᴇᴛ ʟᴇꜱ ᴀʟᴇʀᴛᴇꜱ.
+<b>RᴇᴍᴀʀQᴜᴇ:</b>
+1. Tᴇʟᴇɢʀᴀᴍ ɴᴇ ᴠᴏᴜꜱ ᴘᴇʀᴍᴇᴛᴛʀᴀ ᴘᴀꜱ ᴅ'ᴇɴᴠᴏʏᴇʀ ᴅᴇꜱ ʙᴜᴛᴛᴏɴꜱ ꜱᴀɴꜱ ᴄᴏɴᴛᴇɴᴜ, ᴀɪɴꜱɪ ʟᴇ ᴄᴏɴᴛᴇɴᴜ ᴇꜱᴛ ᴏʙʟɪɢᴀᴛᴏɪʀᴇ.
+2. Cᴇ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛᴇ ᴅᴇꜱ ʙᴜᴛᴛᴏɴꜱ ᴀᴠᴇᴄ ɴ'ɪᴍᴘᴏʀᴛᴇ ϲᴏɴᴛᴇɴᴜ ᴍᴇᴅɪᴀ ᴛᴇʟᴇɢʀᴀᴍ.
+3. Leꜱ ʙᴜᴛᴛᴏɴꜱ ᴅᴇᴠʀᴀɪᴇɴᴛ êᴛʀᴇ ᴄᴏʀʀᴇᴄᴛᴇᴍᴇɴᴛ ᴘᴀʀꜱᴇ́ꜱ ᴇɴ ᴍᴀʀᴋᴅᴏᴡɴ.
+<b>Bᴜᴛᴛᴏɴꜱ ᴜʀʟ :</b>
+<code>[Texte du bouton](buttonurl:https://t.me/snowclubs12)</code>
+<b>Bᴜᴛᴛᴏɴꜱ ᴀʟᴇʀᴛᴇ :</b>
+<code>[Texte du bouton](buttonalert:Ceci est un message d'alerte)</code>"""
+
 
     AUTOFILTER_TXT = """ʜᴇʟᴘ: <b>ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ</b>
 <b>ɴᴏᴛᴇ: Fɪʟᴇ Iɴᴅᴇx</b>
