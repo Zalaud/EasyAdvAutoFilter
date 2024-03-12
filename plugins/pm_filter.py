@@ -1383,7 +1383,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('⤬ Ajoutez-moi à votre groupe ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Gagner de l'argent', callback_data="shortlink_info"),
+                    InlineKeyboardButton('Gagner de largent', callback_data="shortlink_info"),
                     InlineKeyboardButton('Groupe de films', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('Aide', callback_data='help'),
@@ -1506,16 +1506,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('↼ Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs ⇀', callback_data='mods')
+            InlineKeyboardButton('↼ Mods supplémentaires ⇀', callback_data='mods')
         ],[ 
-            InlineKeyboardButton('↼ Oᴡɴᴇʀ Iɴғᴏ', callback_data="owner_info"),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ⇀', callback_data='source')
+            InlineKeyboardButton('↼ Informations sur le propriétaire ', callback_data="owner_info"),
+            InlineKeyboardButton('Code source', callback_data='source')
             
         ],[
-            InlineKeyboardButton('♙ Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ ⊝', callback_data='close_data')
+            InlineKeyboardButton('Accueil', callback_data='start'),
+            InlineKeyboardButton('Close', callback_data='close_data')
         ],[
-            InlineKeyboardButton('❗ Dɪsᴄʟᴀɪᴍᴇʀ ❗', callback_data='dicl_btn')
+            InlineKeyboardButton('❗ Clause de non-responsabilité ❗', callback_data='dicl_btn')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
