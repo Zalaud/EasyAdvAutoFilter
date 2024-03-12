@@ -17,7 +17,7 @@ SOURCE_TXT = """<b>
 ✭ Si vous voulez votre propre type de bot, alors envoyez-moi un message privé avec "payant"</b>
 """
 
-    MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
+MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - Uɴ ꜰɪʟᴛʀᴇ ᴇꜱᴛ ᴜɴᴇ ꜰᴏɴᴄᴛɪᴏɴ ᴏᴜ ʟᴇꜱ ᴜᴛɪʟɪꜱᴀᴛᴇᴜʀꜱ ᴘᴇᴜᴠᴇɴᴛ ᴇɴʀᴇɢɪꜱᴛʀᴇʀ ᴅᴇꜱ ʀᴇ́ᴘᴏɴꜱᴇꜱ ᴀᴜᴛᴏᴍᴀᴛɪϲᴇ́ᴇꜱ ᴘᴏᴜʀ ᴜɴ ᴍᴏᴛ-ᴄʟᴇ́ ᴘᴀʀᴛɪᴄᴜʟɪᴇʀ ᴇᴛ ʏ ᴇɴᴠᴏʏᴇʀᴀɪ ʟᴇꜱ ʀᴇ́ᴘᴏɴꜱᴇꜱ ᴅᴇꜱ ǫᴜᴇ ʟᴇ ᴍᴏᴛ-ᴄʟᴇ́ ᴇꜱᴛ ᴛʀᴏᴜᴠé ᴅᴀɴꜱ ʟᴇ ᴍᴇꜱꜱᴀɢᴇ
 <b>RᴇᴍᴀʀQᴜᴇ:</b>
 1. Cᴇ ʙᴏᴛ ᴅᴏɪᴛ ᴀᴠᴏɪʀ ᴅᴇꜱ ᴘʀɪᴠɪʟᴇ̀ɢᴇꜱ ᴅ'ᴀᴅᴍɪɴɪꜱᴛʀᴀᴛᴇᴜʀ.
@@ -28,6 +28,7 @@ Cᴏᴍᴍᴀɴᴅᴇꜱ ᴇᴛ ᴜꜱᴀɢᴇ :
 • /filters - <code>Lister tous les filtres d'un chat</code>
 • /del - <code>Supprimer un filtre spécifique dans un chat</code>
 • /delall - <code>Supprimer tous les filtres dans un chat (propriétaire du chat seulement)</code>"""
+
 BUTTON_TXT = """ʜᴇʟᴘ: <b>Bᴜᴛᴛᴏɴꜱ</b>
 - Cᴇ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛᴇ ᴅᴇꜱ ʙᴜᴛᴛᴏɴꜱ ɪɴʟɪɴᴇ ᴘᴏᴜʀ ʟᴇꜱ ᴜʀʟ ᴇᴛ ʟᴇꜱ ᴀʟᴇʀᴛᴇꜱ.
 <b>RᴇᴍᴀʀQᴜᴇ:</b>
