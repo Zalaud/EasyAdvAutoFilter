@@ -1,10 +1,10 @@
-if [ -z https://github.com/Zalaud/EasyAdvAutoFilter.git ]
+if [ -z https://github.com/Zalaud/EasyAdvAutoFilter ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Zalaud/EasyAdvAutoFilter.git
+  git clone https://github.com/Zalaud/EasyAdvAutoFilter
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone https://github.com/Zalaud/EasyAdvAutoFilter.git
+  git clone https://github.com/Zalaud/EasyAdvAutoFilter
 fi
 cd /EasyAdvAutoFilter
 pip3 install -U -r requirements.txt
