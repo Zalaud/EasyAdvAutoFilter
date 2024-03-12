@@ -2,22 +2,22 @@ class Script(object):
     START_TXT = """<b>Bonjour {},
     Je m'appelle <a href=https://t.me/{}>{}</a>, je peux fournir des films. Ajoutez-moi à votre groupe en tant qu'administrateur et profitez-en 😍</b>"""
 
-HELP_TXT = """<b>Salut {}
+    HELP_TXT = """<b>Salut {}
 Voici l'aide pour mes commandes.</b>"""
 
-ABOUT_TXT = """<b>✯ Mon nom : {}
+    ABOUT_TXT = """<b>✯ Mon nom : {}
 ✯ Bibliothèque : <a href='docs.pyrogram.org/'>Pyrogram</a>
 ✯ Langage : <a href='www.python.org/download/releases/3.0/'>Python 3</a>
 ✯ Base de données : <a href='www.mongodb.com'>MongoDB</a>
 ✯ Serveur du bot : Privé
 ✯ Statut de construction : v2.7.1 [ Stable ]</b>"""
 
-SOURCE_TXT = """<b>
+    SOURCE_TXT = """<b>
 ✭ Pour toute requête, contactez le développeur
 ✭ Si vous voulez votre propre type de bot, alors envoyez-moi un message privé avec "payant"</b>
 """
 
-MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
+    MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - Uɴ ꜰɪʟᴛʀᴇ ᴇꜱᴛ ᴜɴᴇ ꜰᴏɴᴄᴛɪᴏɴ ᴏᴜ ʟᴇꜱ ᴜᴛɪʟɪꜱᴀᴛᴇᴜʀꜱ ᴘᴇᴜᴠᴇɴᴛ ᴇɴʀᴇɢɪꜱᴛʀᴇʀ ᴅᴇꜱ ʀᴇ́ᴘᴏɴꜱᴇꜱ ᴀᴜᴛᴏᴍᴀᴛɪϲᴇ́ᴇꜱ ᴘᴏᴜʀ ᴜɴ ᴍᴏᴛ-ᴄʟᴇ́ ᴘᴀʀᴛɪᴄᴜʟɪᴇʀ ᴇᴛ ʏ ᴇɴᴠᴏʏᴇʀᴀɪ ʟᴇꜱ ʀᴇ́ᴘᴏɴꜱᴇꜱ ᴅᴇꜱ ǫᴜᴇ ʟᴇ ᴍᴏᴛ-ᴄʟᴇ́ ᴇꜱᴛ ᴛʀᴏᴜᴠé ᴅᴀɴꜱ ʟᴇ ᴍᴇꜱꜱᴀɢᴇ
 <b>RᴇᴍᴀʀQᴜᴇ:</b>
 1. Cᴇ ʙᴏᴛ ᴅᴏɪᴛ ᴀᴠᴏɪʀ ᴅᴇꜱ ᴘʀɪᴠɪʟᴇ̀ɢᴇꜱ ᴅ'ᴀᴅᴍɪɴɪꜱᴛʀᴀᴛᴇᴜʀ.
@@ -29,7 +29,7 @@ Cᴏᴍᴍᴀɴᴅᴇꜱ ᴇᴛ ᴜꜱᴀɢᴇ :
 • /del - <code>Supprimer un filtre spécifique dans un chat</code>
 • /delall - <code>Supprimer tous les filtres dans un chat (propriétaire du chat seulement)</code>"""
 
-BUTTON_TXT = """ʜᴇʟᴘ: <b>Bᴜᴛᴛᴏɴꜱ</b>
+    BUTTON_TXT = """ʜᴇʟᴘ: <b>Bᴜᴛᴛᴏɴꜱ</b>
 - Cᴇ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛᴇ ᴅᴇꜱ ʙᴜᴛᴛᴏɴꜱ ɪɴʟɪɴᴇ ᴘᴏᴜʀ ʟᴇꜱ ᴜʀʟ ᴇᴛ ʟᴇꜱ ᴀʟᴇʀᴛᴇꜱ.
 <b>RᴇᴍᴀʀQᴜᴇ:</b>
 1. Tᴇʟᴇɢʀᴀᴍ ɴᴇ ᴠᴏᴜꜱ ᴘᴇʀᴍᴇᴛᴛʀᴀ ᴘᴀꜱ ᴅ'ᴇɴᴠᴏʏᴇʀ ᴅᴇꜱ ʙᴜᴛᴛᴏɴꜱ ꜱᴀɴꜱ ᴄᴏɴᴛᴇɴᴜ, ᴀɪɴꜱɪ ʟᴇ ᴄᴏɴᴛᴇɴᴜ ᴇꜱᴛ ᴏʙʟɪɢᴀᴛᴏɪʀᴇ.
@@ -41,7 +41,7 @@ BUTTON_TXT = """ʜᴇʟᴘ: <b>Bᴜᴛᴛᴏɴꜱ</b>
 <code>[Texte du bouton](buttonalert:Ceci est un message d'alerte)</code>"""
 
 
-AUTOFILTER_TXT = """ʜᴇʟᴘ: <b>Fɪʟᴛʀᴇ ᴀᴜᴛᴏᴍᴀᴛɪQᴜᴇ</b>
+     AUTOFILTER_TXT = """ʜᴇʟᴘ: <b>Fɪʟᴛʀᴇ ᴀᴜᴛᴏᴍᴀᴛɪQᴜᴇ</b>
 <b>RᴇᴍᴀʀQᴜᴇ : Iɴᴅᴇx ᴅᴇꜱ ꜰɪᴄʜɪᴇʀꜱ</b>
 1. Rᴇɴᴅᴇᴢ-ᴍᴏɪ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴛᴇᴜʀ ᴅᴇ ᴠᴏᴛʀᴇ ᴄʜᴀɴɴᴇʟ ꜱɪ ɪʟ ᴇꜱᴛ ᴘʀɪᴠᴇ́.
 2. Aꜱꜱᴜʀᴇᴢ-ᴠᴏᴜꜱ Qᴜᴇ ᴠᴏᴛʀᴇ ᴄʜᴀɴɴᴇʟ ɴᴇ ᴄᴏɴᴛɪᴇɴᴛ ᴘᴀꜱ ᴅᴇ ᴄᴏɴᴛᴇɴᴜ, ᴘᴏʀɴᴏɢʀᴀᴘʜɪQᴜᴇꜱ ᴇᴛ ᴅᴇ ꜰᴀᴜx ꜰɪᴄʜɪᴇʀꜱ.
@@ -52,14 +52,14 @@ AUTOFILTER_TXT = """ʜᴇʟᴘ: <b>Fɪʟᴛʀᴇ ᴀᴜᴛᴏᴍᴀᴛɪQᴜᴇ<
 2. Uᴛɪʟɪꜱᴇᴢ /connect ᴇᴛ ᴄᴏɴɴᴇᴄᴛᴇᴢ ᴠᴏᴛʀᴇ ɢʀᴏᴜᴘᴇ ᴀᴜ ʙᴏᴛ.
 3. Uᴛɪʟɪꜱᴇᴢ /settings ᴅᴀɴꜱ ʟᴇ ᴘᴠ ᴅᴜ ʙᴏᴛ ᴇᴛ ᴀᴄᴛɪᴠᴇᴢ AᴜᴛᴏFɪʟᴛʀᴇ ᴅᴀɴꜱ ʟᴇ ᴍᴇɴᴜ ᴅᴇ ᴘᴀʀᴀᴍèᴛʀᴇꜱ."""
 
-CONNECTION_TXT = """ʜᴇʟᴘ: <b>Cᴏɴɴᴇxɪᴏɴꜱ</b>
+     CONNECTION_TXT = """ʜᴇʟᴘ: <b>Cᴏɴɴᴇxɪᴏɴꜱ</b>
 - Uᴛɪʟɪꜱᴇ́ ᴘᴏᴜʀ ᴄᴏɴɴᴇᴄᴛᴇʀ ʟᴇ ʙᴏᴛ ᴀᴜx ᴍᴇꜱꜱᴀɢᴇꜱ ᴘᴇʀꜱᴏɴɴᴇʟꜱ ᴘᴏᴜʀ ɢᴇʀᴇʀ ʟᴇꜱ ꜰɪʟᴛʀᴇꜱ 
 - Cᴇʟᴀ ᴀɪᴅᴇ ᴀ̀ ᴇ́ᴠɪᴛᴇʀ ʟᴇ ꜱᴘᴀᴍ ᴅᴀɴꜱ ʟᴇꜱ ɢʀᴏᴜᴘᴇꜱ.
 <b>RᴇᴍᴀʀQᴜᴇ :</b>
 1. Sᴇᴜʟᴇꜱ ʟᴇꜱ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴛᴇᴜʀꜱ ᴘᴇᴜᴠᴇɴᴛ ᴀᴊᴏᴜᴛᴇʀ ᴜɴᴇ ᴄᴏɴɴᴇxɪᴏɴ.
 2. Eɴᴠᴏʏᴇᴢ <code>/connect</code> ᴘᴏᴜʀ ᴄᴏɴɴᴇᴄᴛᴇʀ ᴍᴏɪ ᴀ̀ ᴠᴏᴛʀᴇ ᴘᴠ"""
 
-EXTRAMOD_TXT = """ʜᴇʟᴘ: Modules Eᴘxᴛʀᴀ
+     EXTRAMOD_TXT = """ʜᴇʟᴘ: Modules Eᴘxᴛʀᴀ
 <b>ɴᴏᴛᴇ:</b>
 Cᴇꜱ ᴄᴀʀᴀᴄᴛéʀɪꜱᴛɪϙᴇꜱ ꜱᴏɴᴛ ʟᴇꜱ ꜰᴏɴᴄᴛɪᴏɴɴᴀʟɪᴛéꜱ ᴇxᴛʀᴀ ᴅᴇ ᴄᴇʟᴜɪ ᴅᴜ ʙᴏᴛ
 Cᴏᴍᴍᴀɴᴅᴇꜱ ᴇᴛ ᴜᴛɪʟɪꜱᴀᴛɪᴏɴ :
@@ -67,7 +67,7 @@ Cᴏᴍᴍᴀɴᴅᴇꜱ ᴇᴛ ᴜᴛɪʟɪꜱᴀᴛɪᴏɴ :
 • /info - <codeᴏʙᴛᴇɴɪʀ ʟᴇꜱ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴꜱ ꜱᴜʀ ᴜɴ ᴜᴛɪʟɪꜱᴀᴛᴇᴜʀ.</code>
 • /imdb - <code>ᴏʙᴛᴇɴɪʀ ʟᴇꜱ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴꜱ ᴅᴜ ꜰɪʟᴍ ᴅᴇᴩᴜɪꜱ ʟᴇ ꜱɪᴛᴇ ᴅ'ɪᴍᴅʙ.</code>
 • /search - <code>ᴏʙᴛᴇɴɪʀ ʟᴇꜱ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴꜱ ᴅᴜ ꜰɪʟᴍ ᴅᴇᴩᴜɪꜱ ᴅɪʀꜰéʀᴇɴᴛꜱ ꜱɪᴛᴇꜱ.</code>"""
-ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
+     ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
 <b>ɴᴏᴛᴇ:</b>
 Ce module ne fonctionne que pour mes administrateurs. Commandes et utilisation
 • /logs - <code>ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʀᴇᴄᴇɴᴛ ᴇʀʀᴏʀꜱ</code>
