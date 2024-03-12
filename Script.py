@@ -1,4 +1,5 @@
-class script(object):START_TXT = """<b>Bonjour {},
+class script(object):
+START_TXT = """<b>Bonjour {},
 Je m'appelle <a href=https://t.me/{}>{}</a>, je peux fournir des films. Ajoutez-moi à votre groupe en tant qu'administrateur et profitez-en 😍</b>"""
 
 HELP_TXT = """<b>Salut {}
