@@ -346,4 +346,5 @@ Uꜱᴇʀ Sᴛᴀᴛᴜꜱ : Vᴇʀɪғɪᴇᴅ</b>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Europe/Paris</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
-LOGO = """nothing""'
+LOGO = """nothing"""
+
