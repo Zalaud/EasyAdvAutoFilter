@@ -116,7 +116,7 @@ Nᴀᴍᴇ - {}"""
 ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, 
 ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴛʜᴇ ʀᴇQᴜᴇꜱᴛ ᴀɢᴀɪɴ."""
 
-    CUDNT_FND = """<b>👉 Désolé, je n'ai pas pu trouvé ce que vous cherchiez, écrivez au administrateur</b>"""
+    CUDNT_FND = """<b>👉🏾  Voici ce que j'ai trouvé pour votre requête</b>"""
     
     I_CUDNT = """<b>ᴅᴇsᴏʟᴇ́ ᴊ'ᴀɪ ᴘᴀs ᴘᴜ ᴛʀᴏᴜᴠᴇʀ ᴅᴇ ғɪʟᴍ/sᴇʀɪᴇ ʟɪᴇ́ ᴀᴜ ᴍᴏᴛ ᴅᴏɴɴᴇ́ {} 😕
 
